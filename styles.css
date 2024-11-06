@@ -1,0 +1,41 @@
+#header-img {
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  display: flex;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#nav-bar {
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sec1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid_img img {
+  max-width: 70%; /* Limit the width of the image to 80% of the parent item */
+  max-height: 70%; /* Limit the height of the image to 80% of the parent item */
+  object-fit: contain;
+  gap: 5px;
+}
